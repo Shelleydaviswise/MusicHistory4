@@ -1,5 +1,7 @@
 $(document).ready(function(){  
 
+
+  // function activating the More button
   $(document).on('click', '#getMoreSongs', function(){
 
     $.ajax({
@@ -10,7 +12,7 @@ $(document).ready(function(){
 
     var songArray = data.songs;
       for (var i =0; i < songArray.length; i++){
-        var target = $("#right-flex");
+        var target = $("#song-list");
 
       domString = "<div class = 'song'><h2>" + songArray[i].title + "</h2>" + "<p class = 'songDetails'>" +
           songArray[i].artist + "  |  " + songArray[i].album + "  |  " + songArray[i].year +

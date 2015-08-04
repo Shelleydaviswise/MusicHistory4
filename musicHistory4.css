@@ -138,26 +138,22 @@ td {
   font-style: italic;
 }
 
-#more {
+#getMoreSongs {
   width: 150px;
   font-weight: 600;
   font-family: Lato, sans-serif;
   font-style: italic;
-  font-size: 1.25em;
+  font-size: .9em;
   border-radius: 6px;
   background-color: white;
+  margin-top: 10px;
 }
 
-#more:hover {
+#getMoreSongs:hover {
   text-shadow: 1px 1px 1px gray;
 }
 
-/*.footer {
-  background: lightcoral;
-  color: lightcoral;
-  height: 150px;
-  display: block;
-}*/
+
 
 /*******************************
 RIGHT FLEX ITEM(SONGLIST)
@@ -197,7 +193,7 @@ Text from the JavaScript File
 *******************************/
 
 p {
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 p:first-of-type {
@@ -213,10 +209,10 @@ p:first-of-type {
 }
 
 #deleteButton {
-  font-size: .75em;
+  font-size: .9em;
   font-style: italic;
   border-radius: 6px;  
-  background-color: fuchsia;
+  background-color: gold;
 }
 
 
